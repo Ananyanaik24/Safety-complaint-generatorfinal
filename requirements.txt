@@ -1,0 +1,9 @@
+Flask
+deep-translator
+nltk
+scikit-learn==1.7.2
+pandas
+numpy
+spacy
+pymongo
+stanza

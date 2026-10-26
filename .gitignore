@@ -1,0 +1,45 @@
+
+# Virtual environment
+venv/
+env/
+.venv/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Model files - ignore by default
+*.h5
+*.pkl
+*.joblib
+*.pt
+*.pth
+
+# Include the trained models required by this project
+!models/complaint_model.pkl
+!models/tfidf_vectorizer.pkl
+
+# Logs and temporary files
+*.log
+*.tmp
+
+# Test and cache files
+.pytest_cache/
+.mypy_cache/
